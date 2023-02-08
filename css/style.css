@@ -1,0 +1,144 @@
+body {
+  margin: 23.46vw 6.4vw;
+  background-color: hsl(233, 47%, 7%);
+}
+
+h1, h2, p {
+  margin-block: 0;
+  margin-inline: 0;
+}
+
+.container {
+  overflow: hidden;
+  border-radius: 2.13vw;
+  background-color: hsl(244, 38%, 16%);
+}
+
+.image {
+  height: 64vw;
+  margin-bottom: 10.6771vw;
+  background: url("../images/image-header-mobile.jpg") top center/100% no-repeat;
+}
+
+.image-layer {
+  width: 100%;
+  height: 100%;
+  background-color: hsla(277, 64%, 61%, 0.5);
+}
+
+.info-heading {
+  margin: 0 5vw 4.1666vw;
+  font-family: 'Inter', sans-serif;
+  font-size: 7.4vw;
+  line-height: 8.59375vw;
+  text-align: center;
+  font-weight: 700;
+  color: hsl(0, 0%, 100%);
+}
+
+.info-heading span {
+  color: hsl(277, 64%, 61%);
+}
+
+.info-text {
+  margin: 0 8.5333vw 10.66666vw;
+  font-family: 'Inter', sans-serif;
+  font-size: 4vw;
+  line-height: 6.666vw;
+  text-align: center;
+  color: hsla(0, 0%, 100%, 0.75);
+}
+
+.info-stat-item-heading {
+  margin-bottom: 1.6vw;
+  font-family: 'Inter', sans-serif;
+  font-size: 6.4vw;
+  text-align: center;
+  font-weight: 700;
+  color: hsl(0, 0%, 100%);
+}
+
+.info-stat-item:last-child .info-stat-item-heading {
+  text-transform: uppercase;
+}
+
+.info-stat-item-text {
+  padding-bottom: 7.421875vw;
+  font-family: 'Lexend Deca', sans-serif;
+  font-size: 3.46vw;
+  text-align: center;
+  text-transform: uppercase;
+  color: hsla(0, 0%, 100%, 0.6);
+}
+
+.info-stat-item:last-child .info-stat-item-text {
+  padding-bottom: 9.6354vw;
+}
+
+@media screen and (min-width: 1440px) {
+  body {
+    margin: 0;
+  }
+
+  .container {
+    margin: 12.29166vw auto;
+    width: 77.013888vw;
+    height: 30.972222vw;
+    border-radius: 0.69vw;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+  }
+
+  .image {
+    flex: 0 0 37.5vw;
+    margin: 0;
+    height: auto;
+    background: url("../images/image-header-desktop.jpg") top right/100% no-repeat;
+  }
+
+  .info {
+    width: 37.5vw;
+    padding: 4.8611vw 0 1.94444vw;
+  }
+
+  .info-heading {
+    margin-bottom: 1.66666vw;
+    font-size: 2.4vw;
+    line-height: 3.125vw;
+    letter-spacing: 0.0166vw;
+    text-align: left;
+  }
+
+  .info-text {
+    margin: 0 5.69444vw 5.06944vw 4.8611vw;
+    font-size: 1.0416vw;
+    line-height: 1.7361111vw;
+    text-align: left;
+  }
+
+  .info-stat {
+    display: flex;
+    margin-left: 5vw;
+  }
+
+  .info-stat-item {
+    margin-right: 4.7222vw;
+  }
+
+  .info-stat-item-heading {
+    font-size: 1.6vw;
+    margin-bottom: 0.41666vw;
+    text-align: left;
+  }
+
+  .info-stat-item-text {
+    padding-bottom: 0;
+    font-size: 0.9vw;
+    text-align: left;
+  }
+
+  .info-stat-item:last-child .info-stat-item-text {
+    padding-bottom: 0;
+  }
+}
